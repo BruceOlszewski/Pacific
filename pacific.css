@@ -118,6 +118,7 @@ section {
 }
 
 
+
 footer {
   font-size: 0.70em;
   font-style: italic;
@@ -126,13 +127,37 @@ footer {
   background-color: #FFFFFF;
 }
 
-
 #mobile {
   display: inline;
 }
 
 #desktop {
   display: none;
+}
+
+
+table {
+  border: 1px solid #3399CC;
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #3399CC;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+tr:nth-of-type(even) {
+  background-color: #DFEDF8;
 }
 
 
